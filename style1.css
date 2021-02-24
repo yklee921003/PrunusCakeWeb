@@ -8,19 +8,23 @@ body {
 }
 .header {
     position: relative;
-    width: 100%;
-    height: 85vh;
+    max-width: 100%;
+    height: 90vh;
     overflow: hidden;
+    margin: auto;
 }
 .header #mainBadge {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
+    max-width: 100%;
     height: 100%;
-    background: url("img/head.jpeg");
+    background: url("img/banner.png");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     z-index: -1;
+
 }
 /*#9088d4;*/
 
@@ -67,9 +71,11 @@ nav {
     left: 0;
     background-color: #FFFFFF;
     width: 100%;
-    padding-top: 0.5em;
+    padding-top: 0;
     /*padding: 0.5em;*/
     text-align: right;
+    height: 3.5em;;
+
 }
 
 nav ul{
@@ -77,9 +83,16 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     margin: 0;
     font-size: 1.5em;
+}
+.prunusLogo {
+    width: 20%;
+}
+nav .prunusImg {
+    text-align: center;
+    padding: 0;
 }
 nav li{
     padding: 0 1em 0 1em;
@@ -89,6 +102,12 @@ nav a:link{
 }
 nav a:visited{
     color: #cca8e9;
+}
+nav a:hover{
+    font-weight: bold;
+}
+nav a .prunusLogo:hover {
+    transform: scale(1.2);
 }
 a{
     text-decoration: none;
@@ -107,14 +126,29 @@ a{
 
 /*About Cake div*/
 .aboutCake {
-    height: 70vh;
+    height: 100vh;
     background-color:#f4eeff;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    
+}
+.aboutCake img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 2em;
 }
 
+.aboutCake img:hover {
+    transform: scale(1.2);
+    
+}
 /*footer*/
 footer{
     height:15vh; 
     position: relative;
+    padding: 0;
     
 }
 .fa-instagram {
@@ -126,11 +160,20 @@ footer ul {
     width: 100%;
    margin: auto;
    list-style-type: none;
-   text-align: center;
+   padding: 0;
+
 }
+
 footer p {
     margin: 0;
 }
 footer .email, .copyRight {
     font-size: 0.8em;
+    color:#9088d4;
+}
+footer a:link {
+    color: #cadefc;
+}
+footer a:hover {
+    color: #cca8e9;
 }
