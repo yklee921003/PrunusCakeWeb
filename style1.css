@@ -1,0 +1,136 @@
+/*
+font-family: 'Arima Madurai', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Spectral SC', serif;
+*/
+body {
+    margin: 0;
+}
+.header {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+.header #mainBadge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("img/head.jpeg");
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+/*#9088d4;*/
+
+section{
+    padding: o 10px 10px 10px;
+    color: beige;
+}
+section h2 {
+    font-family: 'Spectral SC', serif;
+    font-size: 3em;
+    text-align: center;
+    color: #c6cbef;
+    margin-top: 0;
+}
+section p {
+    font-family: 'Spectral SC', serif;
+    font-size: 1.2em;
+}
+
+
+
+h1 {
+    
+    margin-left: 30px;
+}
+p, h3{
+    font-family: 'Spectral SC', serif; 
+    text-align: center;
+}
+h1 a {
+    padding-top: 200px;
+    color: #cabbe9;
+   
+}
+
+.home {
+    height: 40vh;
+}
+nav {
+    text-align: right;
+    position: fixed;
+    font-family: 'Spectral SC', serif;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding-top: 0.5em;
+    /*padding: 0.5em;*/
+    text-align: right;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 1.5em;
+}
+nav li{
+    padding: 0 1em 0 1em;
+}
+nav a:link{
+    color: #cadefc;
+}
+nav a:visited{
+    color: #cca8e9;
+}
+a{
+    text-decoration: none;
+}
+
+.img {
+    width: 30%;
+    margin-top: 10%;
+    
+    
+}
+.imgdiv{
+    height: 500px;
+    background-color: #FFF;
+}
+
+/*About Cake div*/
+.aboutCake {
+    height: 70vh;
+    background-color:#f4eeff;
+}
+
+/*footer*/
+footer{
+    height:15vh; 
+    position: relative;
+    
+}
+.fa-instagram {
+    font-size: 1.5em;
+}
+footer ul {
+   position: absolute;
+    bottom:0;
+    width: 100%;
+   margin: auto;
+   list-style-type: none;
+   text-align: center;
+}
+footer p {
+    margin: 0;
+}
+footer .email, .copyRight {
+    font-size: 0.8em;
+}
