@@ -1,0 +1,11 @@
+.course {
+    margin-top: 150px;
+    background-color: #f8f1f1;
+    background-size: 100% 100%;
+    height: 60vh;
+}
+.course h2 {
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    margin-top: 20px;
+}
