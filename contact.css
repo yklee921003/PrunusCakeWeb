@@ -1,3 +1,34 @@
 .intro {
     margin-top: 140px;
 }
+
+
+/*footer*/
+footer{
+    height:15vh; 
+    position: relative;
+    padding: 0;
+    margin: 40px 0 10px 0;
+
+}
+footer p {
+    margin: 0;
+}
+footer, .email, .copyRight {
+    font-size: 0.9em;
+    color:#cadefc;
+}
+footer a:link {
+    color: #cadefc;
+}
+footer a:hover {
+    color: #cca8e9;
+
+}
+.fab {
+    font-size: 2em;
+    color:#cadefc;
+}
+.fab:hover{
+    color: #cca8e9;
+}

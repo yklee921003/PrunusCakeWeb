@@ -1,3 +1,76 @@
+body {
+    margin-top: 10%;
+}
+
+hr {
+    width: 7%;
+    border: 0.5px solid #c4b6b6;
+    margin-bottom: 25px
+    ;
+}
 #flower h3 {
     margin-top: 300px;
+}
+h3 {
+    color: #c4b6b6;
+    font-family: 'Glegoo', serif;
+    font-weight: lighter;
+    font-size: 2em;
+}
+div img {
+    width: 400px;
+    height: 550px;
+    margin: 15px;
+}
+#flower {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+
+#princess {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+#lettering {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+/*footer*/
+footer{
+    height:15vh; 
+    position: relative;
+    padding: 0;
+    margin: 40px 0 10px 0;
+
+}
+footer p {
+    margin: 0;
+}
+footer, .email, .copyRight {
+    font-size: 1em;
+    color:#cadefc;
+}
+footer a:link {
+    color: #cadefc;
+}
+footer a:hover {
+    color: #cca8e9;
+
+}
+.fab {
+    font-size: 2em;
+    color:#cadefc;
+}
+.fab:hover{
+    color: #cca8e9;
 }
