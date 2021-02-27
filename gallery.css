@@ -18,16 +18,24 @@ h3 {
     font-size: 2em;
 }
 div img {
-    width: 400px;
-    height: 550px;
+   
+    width: 390px;
+    height: 430px;
     margin: 15px;
+
 }
+
+
+
+
 #flower {
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
+
+
 
 }
 
@@ -49,17 +57,16 @@ div img {
 footer{
     height:15vh; 
     position: relative;
-    padding: 0;
     margin: 40px 0 10px 0;
 
 }
 footer p {
     margin: 0;
-}
-footer, .email, .copyRight {
-    font-size: 1em;
+    padding: 1px;
+    font-size: 0.8em;
     color:#cadefc;
 }
+
 footer a:link {
     color: #cadefc;
 }
@@ -74,3 +81,4 @@ footer a:hover {
 .fab:hover{
     color: #cca8e9;
 }
+

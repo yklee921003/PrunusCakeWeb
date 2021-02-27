@@ -13,9 +13,8 @@ footer{
 }
 footer p {
     margin: 0;
-}
-footer, .email, .copyRight {
-    font-size: 0.9em;
+    padding: 1px;
+    font-size: 0.8em;
     color:#cadefc;
 }
 footer a:link {

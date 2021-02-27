@@ -19,6 +19,9 @@
     color: #848ccf
 }
 
+img {
+    width: 30%;
+}
 
 /*footer*/
 footer{
@@ -30,9 +33,8 @@ footer{
 }
 footer p {
     margin: 0;
-}
-footer, .email, .copyRight {
-    font-size: 1em;
+    padding: 1px;
+    font-size: 0.8em;
     color:#cadefc;
 }
 footer a:link {
