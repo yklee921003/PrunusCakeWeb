@@ -19,10 +19,19 @@
     color: #848ccf
 }
 
-img {
-    width: 30%;
+hr {
+    width: 7%;
+    border: 0.5px solid #848ccf;
+    margin-bottom: 25px;
+    
 }
-
+table {
+    margin: auto;
+}
+table img {
+    width: 200px;
+    height: 250px;
+}
 /*footer*/
 footer{
     height:15vh; 
