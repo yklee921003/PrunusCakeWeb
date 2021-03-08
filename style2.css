@@ -24,7 +24,7 @@ body {
 
 
 section{
-    padding: o 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     
 }
 section h2 {
@@ -35,18 +35,11 @@ section h2 {
     margin: 0 0;
 }
 section p {
-    /*
-    font-family: 'Cabin Sketch', cursive;
-    font-family: 'Neucha', cursive;
-    */
     
     font-family: 'Coming Soon', cursive;
     font-size: 1em;
     font-weight: lighter;
     margin:0;
-   /*
-    color: #9088d4;
-    */
     color:#cadefc;
     padding: 0;
 }
@@ -81,7 +74,7 @@ nav {
     width: 100%;
     padding-top: 4px;
     text-align: right;
-    height: 3.9em;;
+    height: 3.9em;
 
 }
 
@@ -89,12 +82,15 @@ nav ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center; 
     margin: 0;
     padding: 0.1em;
     font-size: 1.5em;
     font-weight: bolder;
+}
+nav li {
+    padding:0 3em 0 0;
 }
 .prunusLogo {
     width: 20%;
@@ -103,9 +99,7 @@ nav .prunusImg {
     text-align: center;
     padding: 0;
 }
-nav li{
-    padding: 0 1em 0 1em;
-}
+
 nav a:link{
     color: #cadefc;
 }
@@ -199,7 +193,7 @@ a{
       margin-bottom: 10px;
       border: 1px none;
       text-align: center;
-      color: #c4b6b6
+      color: #c4b6b6;
 
   }
   .container .submit {
@@ -224,8 +218,8 @@ a{
       border-radius: 5px;
       border: 2px solid #FFF;
       font-weight: bolder;
-  }
 
+  }
 
 /*footer*/
 footer{
@@ -268,4 +262,100 @@ footer a:hover {
 }
 .fab:hover{
     color: #cca8e9;
+}
+
+@media screen and (max-width:850px) {
+
+    nav {
+        text-align: right;
+        position: fixed;
+        font-family: 'Megrim', cursive;
+        top: 0;
+        left: 0;
+        background-color: #FFFFFF;
+        width: 100%;
+        padding-top: 2px;
+        text-align: right;
+        height: 13em;
+    
+    }
+    
+    nav ul{
+        list-style-type: none;
+        display:flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        font-weight: bolder;
+    }
+    nav li{
+        font-size: 20px;
+        padding: 4px;
+    }
+
+    .cakem img {
+
+        overflow: hidden;
+        padding: 0;
+        width: 80px;
+        height: 130px;
+        border:1px none #000;
+        float:left;
+        margin-top: 120px;
+    }
+    .cakem img:hover {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        z-index: 0;
+    }
+
+}
+
+@media screen and (max-width:1065px){
+    nav {
+        text-align: right;
+        position: fixed;
+        font-family: 'Megrim', cursive;
+        top: 0;
+        left: 0;
+        background-color: #FFFFFF;
+        width: 100%;
+        padding-top: 2px;
+        margin-bottom: 5px;
+        text-align: right;
+        height: 15.5em;
+    
+    }
+    
+    nav ul{
+        list-style-type: none;
+        display:flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        font-weight: bolder;
+    }
+    nav li{
+        font-size: 20px;
+        padding: 4px;
+
+    }
+    .cakem img {
+
+        overflow: hidden;
+        padding: 0;
+        width: 100%;
+        height: 95%;
+        border:1px none #000;
+        float:left;
+        margin-top: 120px;
+    }
+    .cakem img:hover {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        z-index: 0;
+    }
+    
 }

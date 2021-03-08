@@ -27,27 +27,23 @@ div img {
 
 
 
-#flower {
-    
+#flower {  
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-
-
-
 }
 
 #princess {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
 }
 
 #lettering {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
 }
@@ -80,4 +76,32 @@ footer a:hover {
 .fab:hover{
     color: #cca8e9;
 }
+
+
+@media  (max-width:850px){
+    .heading{
+        margin-top: 300px;
+    }
+    #flower {  
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    
+    #princess {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    
+    #lettering {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+}
+
 

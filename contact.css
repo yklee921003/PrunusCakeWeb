@@ -75,3 +75,14 @@ form textarea {
     border: 2px solid #FFF;
     font-weight: bolder;
 }
+
+@media screen and (max-width:850px) {
+    .container {
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .container {
+        margin-top: 300px;
+    }
+}
