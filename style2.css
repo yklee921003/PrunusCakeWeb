@@ -28,19 +28,9 @@ section{
     
 }
 section h2 {
-    /* 
-    font-family: 'Cabin Sketch', cursive;
-    font-family: 'Dokdo', cursive;
-    font-family: 'Megrim', cursive;
-        font-family: 'Coming Soon', cursive;
-    */
-
     font-family: 'Patrick Hand SC', cursive;
     font-size: 3.7em;
     text-align: center;
-   /*
-    color: #c6cbef;
-    */
     color:#cadefc;
     margin: 0 0;
 }

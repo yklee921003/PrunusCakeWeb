@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a contact page where you can contact us.">
+	<meta name="author" content="Maria Lee">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&family=Cormorant+SC:wght@500&family=Spectral+SC:wght@200&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="img/3.png" type="image/x-icon">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Charm&family=Gruppo&family=Lemonada:wght@300&family=Megrim&family=Petit+Formal+Script&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&family=Cormorant+SC:wght@500&family=Spectral+SC:wght@200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/3.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Glegoo&family=Nanum+Myeongjo&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Kalam:wght@300&family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Charm&family=Gruppo&family=Lemonada:wght@300&family=Megrim&family=Petit+Formal+Script&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Dokdo&family=Handlee&family=Nerko+One&family=Neucha&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
     <title>Prunus Cake :: HOME</title>
 </head>
 <body>
@@ -26,10 +33,20 @@
 
 </nav>
 
-<div class="intro">
+<div class="container">
     <h3>We'd love to hear from you!</h3>
+<form action="https://webdevbasics.net/scripts/yoga.php">
+    <label id="myName" for="myName" >Name:</label>
+    <input type="text"  name="myName" required>
+    <label id="Email"  for="Email">E-mail:</label>
+    <input type="text"  name="myEmail" required >
+    <label id="interest" for="interest">How did you hear about us?</label>
+    <input  type="text"  name="myRefer" required>
+    <label id="Comments" for="Comments">Comments:</label>
+    <textarea name="myComments" cols="20" rows="2" required></textarea>
+    <input class="send" type="submit" value="Send Now" id="mySubmit">
+</form>
 </div>
-
 <footer>
     <ul>
         <li><p class="icon"><a href="https://www.instagram.com/prunus_cake/"><i class="fab fa-instagram"></i></a></p> </li>
